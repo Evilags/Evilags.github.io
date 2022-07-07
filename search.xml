@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>images</title>
+    <url>/port/26209.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><hr>
+<p>##yaml语法需要注意空格，如title: Hello World冒号需要有一个空格</p>
+]]></content>
+      <categories>
+        <category>计算机语法</category>
+      </categories>
+      <tags>
+        <tag>语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>_config.yml 防坑指南</title>
+    <url>/port/12464.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##注意！！！编辑_config文件夹时，在themes文件夹里的 _config编辑，否则会出现报错或无法更新等问题。</p>
+]]></content>
+      <categories>
+        <category>防坑指南</category>
+      </categories>
+      <tags>
+        <tag>指南</tag>
+      </tags>
+  </entry>
+</search>
