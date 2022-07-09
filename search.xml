@@ -25,4 +25,13 @@
         <tag>指南</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Butterfly主题优化</title>
+    <url>/port/46969.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##1.在bolg根目录打开git bash here<br><img src="2.png"><br>##2.输入 hexo new page link<br><img src="3.png"><br>##3.在”Blog\source_data”文件夹下创建一个link文件夹并把文件尾缀设置为.yml    “Blog\source_data\link.yml”<br>##4.- class_name: 我的网站 🎉🎉<br>      class_desc: 成年人当然全都要。<br>           link_list:<br>         - name: 刘公子的博客<br>           link: <a href="https://intchiki.github.io/">https://intchiki.github.io/</a><br>           avatar: <a href="https://intchiki.github.io/touxiang.png">https://intchiki.github.io/touxiang.png</a><br>           descr: 本站 Butterfly 版<br>         - name: guole’s Blog<br>           link: <a href="https://blog.guole.fun/">https://blog.guole.fun/</a><br>           avatar: <a href="https://cdn.guole.fun/logo/blog.guole.fun.png">https://cdn.guole.fun/logo/blog.guole.fun.png</a><br>           descr: 本站 Hugo 版<br>         - name: 音乐小站<br>           link: <a href="https://music.guole.fun/">https://music.guole.fun/</a><br>           avatar: <a href="https://cdn.guole.fun/logo/music.png">https://cdn.guole.fun/logo/music.png</a><br>           descr: 一个小想法，造就了第一个小站</p>
+]]></content>
+      <categories>
+        <category>Butterfly主题</category>
+      </categories>
+  </entry>
 </search>
