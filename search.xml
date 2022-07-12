@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>images</title>
-    <url>/port/26209.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><hr>
-<p>##yaml语法需要注意空格，如title: Hello World冒号需要有一个空格</p>
-]]></content>
-      <categories>
-        <category>计算机语法</category>
-      </categories>
-      <tags>
-        <tag>语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>_config.yml 防坑指南</title>
-    <url>/port/12464.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##注意！！！编辑_config文件夹时，在themes文件夹里的 _config编辑，否则会出现报错或无法更新等问题。</p>
-]]></content>
-      <categories>
-        <category>防坑指南</category>
-      </categories>
-      <tags>
-        <tag>指南</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Butterfly主题优化</title>
     <url>/port/46969.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>1.在bolg根目录打开git bash here<br><img src="\image\2.png"><br>2.输入 hexo new page link 此文件会在”E:\Blog\source\link\index.md”<br><img src="\image\3.png"><br>3.在”Blog\source_data”文件夹下创建一个link文件夹并把文件尾缀设置为.yml     —-“Blog\source_data\link.yml”<br><img src="\image\4.png"><br>4.在link.yml文档里输入以下代码</p>
@@ -51,5 +26,30 @@
       <categories>
         <category>Butterfly主题</category>
       </categories>
+  </entry>
+  <entry>
+    <title>images</title>
+    <url>/port/26209.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><hr>
+<p>##yaml语法需要注意空格，如title: Hello World冒号需要有一个空格</p>
+]]></content>
+      <categories>
+        <category>计算机语法</category>
+      </categories>
+      <tags>
+        <tag>语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>_config.yml 防坑指南</title>
+    <url>/port/12464.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##注意！！！编辑_config文件夹时，在themes文件夹里的 _config编辑，否则会出现报错或无法更新等问题。</p>
+]]></content>
+      <categories>
+        <category>防坑指南</category>
+      </categories>
+      <tags>
+        <tag>指南</tag>
+      </tags>
   </entry>
 </search>
