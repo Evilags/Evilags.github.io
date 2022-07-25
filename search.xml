@@ -4,52 +4,11 @@
     <title>Butterfly主题优化</title>
     <url>/port/46969.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>1.在bolg根目录打开git bash here<br><img src="\image\2.png"><br>2.输入 hexo new page link 此文件会在”E:\Blog\source\link\index.md”<br><img src="\image\3.png"><br>3.在”Blog\source_data”文件夹下创建一个link文件夹并把文件尾缀设置为.yml     —-“Blog\source_data\link.yml”<br><img src="\image\4.png"><br>4.在link.yml文档里输入以下代码</p>
-<pre>
-  <code class="yaml">- class_name: 我的网站 🎉🎉   #主页标题栏名称
-    class_desc: 成年人当然全都要。  #标题栏简介
-        link_list:
-      - name: 刘公子的博客    #名称
-        link: https://intchiki.github.io/   #链接地址
-        avatar: https://intchiki.github.io/touxiang.png   #头像链接
-        descr: 本站 Butterfly 版   #名称下简介
-      - name: guole's Blog
-        link: https://blog.guole.fun/
-        avatar: https://cdn.guole.fun/logo/blog.guole.fun.png
-        descr: 本站 Hugo 版
-      - name: 音乐小站
-        link: https://music.guole.fun/
-        avatar: https://cdn.guole.fun/logo/music.png
-        descr: 一个小想法，造就了第一个小站</code>
-</pre>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">&lt;code class=<span class="hljs-string">&quot;yaml&quot;</span>&gt;- class_name: 我的网站 🎉🎉   <span class="hljs-comment">#主页标题栏名称</span><br>  class_desc: 成年人当然全都要。  <span class="hljs-comment">#标题栏简介</span><br>      link_list:<br>    - name: 刘公子的博客    <span class="hljs-comment">#名称</span><br>      <span class="hljs-built_in">link</span>: https://intchiki.github.io/   <span class="hljs-comment">#链接地址</span><br>      avatar: https://intchiki.github.io/touxiang.png   <span class="hljs-comment">#头像链接</span><br>      descr: 本站 Butterfly 版   <span class="hljs-comment">#名称下简介</span><br>    - name: guole<span class="hljs-string">&#x27;s Blog</span><br><span class="hljs-string">      link: https://blog.guole.fun/</span><br><span class="hljs-string">      avatar: https://cdn.guole.fun/logo/blog.guole.fun.png</span><br><span class="hljs-string">      descr: 本站 Hugo 版</span><br><span class="hljs-string">    - name: 音乐小站</span><br><span class="hljs-string">      link: https://music.guole.fun/</span><br><span class="hljs-string">      avatar: https://cdn.guole.fun/logo/music.png</span><br><span class="hljs-string">      descr: 一个小想法，造就了第一个小站&lt;/code&gt;</span><br></code></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
         <category>Butterfly主题</category>
       </categories>
-  </entry>
-  <entry>
-    <title>images</title>
-    <url>/port/26209.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><hr>
-<p>##yaml语法需要注意空格，如title: Hello World冒号需要有一个空格</p>
-]]></content>
-      <categories>
-        <category>计算机语法</category>
-      </categories>
-      <tags>
-        <tag>语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>_config.yml 防坑指南</title>
-    <url>/port/12464.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##注意！！！编辑_config文件夹时，在themes文件夹里的 _config编辑，否则会出现报错或无法更新等问题。</p>
-]]></content>
-      <categories>
-        <category>防坑指南</category>
-      </categories>
-      <tags>
-        <tag>指南</tag>
-      </tags>
   </entry>
 </search>
