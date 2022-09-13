@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Butterfly主题优化</title>
+    <title>调试用</title>
     <url>/port/46969.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>1.在bolg根目录打开git bash here<br><img src="\image\2.png"><br>2.输入 hexo new page link 此文件会在”E:\Blog\source\link\index.md”<br><img src="\image\3.png"><br>3.在”Blog\source_data”文件夹下创建一个link文件夹并把文件尾缀设置为.yml     —-“Blog\source_data\link.yml”<br><img src="\image\4.png"><br>4.在link.yml文档里输入以下代码</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">&lt;code class=<span class="hljs-string">&quot;yaml&quot;</span>&gt;- class_name: 我的网站 🎉🎉   <span class="hljs-comment">#主页标题栏名称</span><br>  class_desc: 成年人当然全都要。  <span class="hljs-comment">#标题栏简介</span><br>      link_list:<br>    - name: 刘公子的博客    <span class="hljs-comment">#名称</span><br>      <span class="hljs-built_in">link</span>: https://intchiki.github.io/   <span class="hljs-comment">#链接地址</span><br>      avatar: https://intchiki.github.io/touxiang.png   <span class="hljs-comment">#头像链接</span><br>      descr: 本站 Butterfly 版   <span class="hljs-comment">#名称下简介</span><br>    - name: guole<span class="hljs-string">&#x27;s Blog</span><br><span class="hljs-string">      link: https://blog.guole.fun/</span><br><span class="hljs-string">      avatar: https://cdn.guole.fun/logo/blog.guole.fun.png</span><br><span class="hljs-string">      descr: 本站 Hugo 版</span><br><span class="hljs-string">    - name: 音乐小站</span><br><span class="hljs-string">      link: https://music.guole.fun/</span><br><span class="hljs-string">      avatar: https://cdn.guole.fun/logo/music.png</span><br><span class="hljs-string">      descr: 一个小想法，造就了第一个小站&lt;/code&gt;</span><br></code></pre></td></tr></table></figure>
-
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>1.在bolg根目录打开git bash here<br><img src="\image\2.png"><br>2.输入 hexo new page link 此文件会在”E:\Blog\source\link\index.md”<br><img src="\image\3.png"><br>3.在”Blog\source_data”文件夹下创建一个link文件夹并把文件尾缀设置为.yml     ——“Blog\source_data\link.yml”<br><img src="\image\4.png"><br>4.在link.yml文档里输入以下代码<br><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">&lt;code class=<span class="hljs-string">&quot;yaml&quot;</span>&gt;- class_name: 我的网站 🎉🎉   <span class="hljs-comment">#主页标题栏名称</span><br>  class_desc: 成年人当然全都要。  <span class="hljs-comment">#标题栏简介</span><br>      link_list:<br>    - name: 刘公子的博客    <span class="hljs-comment">#名称</span><br>      <span class="hljs-built_in">link</span>: https://intchiki.github.io/   <span class="hljs-comment">#链接地址</span><br>      avatar: https://intchiki.github.io/touxiang.png   <span class="hljs-comment">#头像链接</span><br>      descr: 本站 Butterfly 版   <span class="hljs-comment">#名称下简介</span><br>    - name: guole<span class="hljs-string">&#x27;s Blog</span><br><span class="hljs-string">      link: https://blog.guole.fun/</span><br><span class="hljs-string">      avatar: https://cdn.guole.fun/logo/blog.guole.fun.png</span><br><span class="hljs-string">      descr: 本站 Hugo 版</span><br><span class="hljs-string">    - name: 音乐小站</span><br><span class="hljs-string">      link: https://music.guole.fun/</span><br><span class="hljs-string">      avatar: https://cdn.guole.fun/logo/music.png</span><br><span class="hljs-string">      descr: 一个小想法，造就了第一个小站&lt;/code&gt;</span><br></code></pre></td></tr></table></figure></p>
+<ul>
+<li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<span class='p red'>红色</span>、<span class='p yellow'>黄色</span>、<span class='p green'>绿色</span>、<span class='p cyan'>青色</span>、<span class='p blue'>蓝色</span>、<span class='p gray'>灰色</span>。</li>
+<li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<span class='p center logo large'>Volantis</span>
+<span class='p center small'>A Wonderful Theme for Hexo</span>
+</li>
+</ul>
+<div class="note icon simple"><i class="note-icon fab fa-cc-visa"></i><p>你是刷 Visa 还是 UnionPay</p>
+</div>
+<div class='checkbox'><input type="checkbox" />
+            <p>纯文本测试</p>
+            </div>
+<div class='checkbox checked'><input type="checkbox" checked="checked"/>
+            <p>支持简单的 <a href="https://guides.github.com/features/mastering-markdown/">markdown</a> 语法</p>
+            </div>
+<div class='checkbox red'><input type="checkbox" />
+            <p>支持自定义颜色</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>绿色 + 默认选中</p>
+            </div>
+<div class='checkbox yellow checked'><input type="checkbox" checked="checked"/>
+            <p>黄色 + 默认选中</p>
+            </div>
+<div class='checkbox cyan checked'><input type="checkbox" checked="checked"/>
+            <p>青色 + 默认选中</p>
+            </div>
+<div class='checkbox blue checked'><input type="checkbox" checked="checked"/>
+            <p>蓝色 + 默认选中</p>
+            </div>
+<div class='checkbox plus green checked'><input type="checkbox" checked="checked"/>
+            <p>增加</p>
+            </div>
+<div class='checkbox minus yellow checked'><input type="checkbox" checked="checked"/>
+            <p>减少</p>
+            </div>
+<div class='checkbox times red checked'><input type="checkbox" checked="checked"/>
+            <p>叉</p>
+            </div>
 ]]></content>
       <categories>
-        <category>Butterfly主题</category>
+        <category>博客调试</category>
       </categories>
   </entry>
 </search>
