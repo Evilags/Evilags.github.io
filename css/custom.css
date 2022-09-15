@@ -1,0 +1,83 @@
+#site-name::before{
+  opacity: 0;
+  background-color: var(--lyx-theme)!important;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+  position:absolute;
+  top:0!important;
+  right:0!important;
+  width:100%;
+  height:100%;
+  content: "\f015";
+  box-shadow: 0 0 5px var(--lyx-theme);
+  font-family: "Font Awesome 6 Free";
+  text-align: center;
+  color:white;
+  line-height:34px;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/
+  font-size: 36px;/*根据个人喜好*/
+}
+#site-name:hover::before{
+  opacity: 1;
+  scale:1.03;
+}
+#site-name{
+  position: relative;
+  font-size: 24px; /*一定要把字体调大点，否则效果惨不忍睹！*/
+}
+:root{
+  --lyx-theme:#ed709b /*我的主题色*/
+}
+
+/*分辨率适配调整*/
+.aside-content{
+    max-width:312px;
+    min-width:300px;
+}
+.recent-posts{
+  width:auto!important;
+}
+
+#nav .menus_items .menus_item .menus_item_child li {
+  margin: 6px;
+  border-radius: 5px !important;
+  transition: all 0.3s;
+}
+#nav .menus_items .menus_item .menus_item_child {
+  animation: none;
+}
+#nav .menus_items .menus_item:hover .menus_item_child {
+  display: block;
+  transform: translateX(-50%);
+  left: 50% !important;
+}
+
+#nav .menus_items .menus_item {
+  padding: 0px 30px 15px 10px;
+}
+
+#nav .menus_items .menus_item > a > i:last-child {
+  display: none;
+}
+
+/* 横向排布子菜单 */
+#nav .menus_items .menus_item .menus_item_child li {
+  display: inline-block;
+}
+
+/* 一级菜单居中 */
+#nav .menus_items {
+  /* display: inline; 这个带不带都可以，本来就是inline */
+  position: absolute;
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
+  float: auto;
+}
