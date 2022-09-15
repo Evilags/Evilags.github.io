@@ -60,7 +60,7 @@
 }
 
 #nav .menus_items .menus_item {
-  padding: 0px 30px 15px 10px;
+  padding: 0px 40px 15px 10px;
 }
 
 #nav .menus_items .menus_item > a > i:last-child {
@@ -77,7 +77,13 @@
   /* display: inline; 这个带不带都可以，本来就是inline */
   position: absolute;
   width: fit-content;
-  left: 50%;
+  left: 51%;
   transform: translateX(-50%);
   float: auto;
+}
+
+/*导航栏上下*/
+div#menus {
+  width: auto;
+  height: 37px;
 }
