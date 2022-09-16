@@ -83,7 +83,7 @@
 }
 
 /*导航栏上下*/
-div#menus {
+#menus {
   width: auto;
   height: 37px;
 }
